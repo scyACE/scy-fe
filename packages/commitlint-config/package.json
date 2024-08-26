@@ -1,6 +1,6 @@
 {
-	"name": "scy-commitlint-config",
-	"version": "3.0.1",
+	"name": "commitlint-config-scy",
+	"version": "3.0.2",
 	"description": "> TODO: description",
 	"author": "scyAce <scy_work@yeah.net>",
 	"homepage": "",
@@ -8,6 +8,5 @@
 	"main": "index.js",
 	"dependencies": {
 		"conventional-changelog-conventionalcommits": "^8.0.0"
-	},
-	"gitHead": "bb3115031b6e5f6d4c6b4515f4e81d5f3bdce2b2"
+	}
 }
