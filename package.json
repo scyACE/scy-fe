@@ -1,0 +1,29 @@
+{
+	"name": "scy-fe-spec",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"@commitlint/cli": "19.4.0",
+		"lerna": "^8.1.8",
+		"husky": "^9.1.5"
+	},
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"prepare": "husky",
+		"init": "pnpm install",
+		"clean": "lerna clean && rm -rf node_modules",
+		"test": "lerna run test",
+		"docs:dev": "vuepress dev doc",
+		"docs:build": "vuepress build doc",
+		"deploy": "bash deploy.sh",
+		"publish": "lerna publish",
+		"lint": "markdownlint README.md",
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.com"
+	}
+}
