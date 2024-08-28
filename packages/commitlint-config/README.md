@@ -9,7 +9,7 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install scy-commitlint-config @commitlint/cli --save-dev
+npm install commitlint-config-scy @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -18,7 +18,7 @@ npm install scy-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-	extends: ['scy-commitlint-config'],
+	extends: ['commitlint-config-scy'],
 };
 ```
 
