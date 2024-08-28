@@ -18,7 +18,7 @@ npm install commitlint-config-scy @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-	extends: ['commitlint-config-scy'],
+	extends: ['scy'],
 };
 ```
 
