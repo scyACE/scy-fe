@@ -10,10 +10,7 @@
   "scripts": {
     "dev": "npm run copyfiles && tsc -w",
     "build": "rm -rf lib && npm run copyfiles && tsc",
-    "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
-    "test": "npm run build && jest",
-    "coverage": "nyc jest --silent --forceExit",
-    "prepublishOnly": "npm run test"
+    "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib"
   },
   "files": [
     "lib/"
@@ -95,5 +92,5 @@
   "bugs": {
     "url": "https://github.com/scyACE/scy-fe/issues"
   },
-  "gitHead": "7f2f9e81951846f4ba43ad66336fbd78efb3a4df"
+  "gitHead": "93473f2b4f955dba2fcd159722b0e0a12cc187bf"
 }
